@@ -1,0 +1,76 @@
+:root {
+	--blue: #5955b3;
+	--blueDark: #3c2f60;
+	--black: #0d0d0d;
+	--grey: #c8c8c8;
+}
+
+.container {
+	margin: 25px 100px;
+	font-family: "Poppins", sans-serif;
+}
+.navbar-container {
+	display: flex;
+	flex-direction: row;
+}
+.grow-list {
+	display: flex;
+	flex-grow: 1;
+	justify-content: flex-start;
+	align-items: center;
+}
+.list {
+	display: flex;
+	flex-direction: row;
+}
+.list-item {
+	font-size: 20px;
+	list-style-type: none;
+	margin-right: 40px;
+	color: var(--grey);
+}
+.list li:first-child {
+	color: var(--black);
+}
+.button-group {
+	margin: auto 0;
+}
+.nav-button {
+	background-color: var(--blue);
+	color: #ffffff;
+	height: 50px;
+	font-family: "Poppins", sans-serif;
+	font-size: 18px;
+	padding: 0 20px;
+	border: none;
+	border-radius: 10px;
+}
+.banner-container {
+	width: 35%;
+}
+
+.banner-container div img {
+	position: absolute;
+	top: 140px;
+	right: 0;
+}
+
+.heading-text {
+	color: var(--blueDark);
+	font-size: 90px;
+	line-height: 95px;
+	margin-top: 150px;
+}
+
+.heading-text span {
+	color: var(--blue);
+}
+.description {
+	position: relative;
+	top: -40px;
+	color: var(--grey);
+}
+
+.btn {
+	padding: 0 30px;
+}
